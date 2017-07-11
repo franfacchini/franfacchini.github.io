@@ -1,0 +1,173 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	background-color: #F6F6F6;
+}
+
+header {
+    width: 93%;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    margin: 37px 0 0 84px;
+}
+
+header img {
+	border-radius: 10px;
+	filter: grayscale(70%);
+	float: left;
+	width: 95px;
+	height: auto;
+	margin: 0 20px 0 0;	
+}
+
+.name{
+	width: 75%;
+}
+
+header h1 {
+	float: left;
+	font-family: 'Sacramento', cursive;
+	font-size: 80px;
+	color: #41B4A3;
+	margin: 0;	
+}
+
+#social{
+	float: right;
+	width: 25%;
+	color: #41B4A3;
+}
+
+#social a{
+	color: #41B4A3;
+	font-size: 30px;
+	margin: 15px;
+}
+
+main {
+    width: 100%;
+    min-height: calc(100vh - 212px);
+    position: relative;
+    margin-top: 139px;
+}
+
+.blocos{
+    margin: 0 83px;
+}
+
+.bloco-quemsou{
+	background-color: #fff;
+    padding: 15px;
+    margin-right: 15px;
+    float: left;
+    width: 250px;
+    height: 270px;
+c
+}
+
+.bloco-quemsou h2{
+	text-align: center;
+	color: #B3B58E;
+}
+
+.bloco-quemsou p, 
+.bloco-quemsou span{
+	font-size: 14px;
+	color: grey;
+}
+
+footer{
+	width: 100%;
+  	position: absolute;
+  	bottom: 0;
+  	background: purple;
+}
+
+nav ul{
+	display: inline-flex;
+	list-style-type:none;
+}
+
+nav ul li{
+    margin: 0px 100px;
+    text-align: center;
+}
+
+nav ul li a{ 
+ 	text-decoration:none;
+	color: #fff;
+ 	font-weight: bold;
+}
+
+nav ul li a h2{ 
+ 	font-size: 20px;
+}
+
+.icon {
+	font-size: 30px;
+}
+
+
+#grafico-desenvolvimento-web{
+	background-color: #B3B58E;
+	margin: 5px;
+	height: 10px;
+	width: 100px;
+}
+
+#grafico-ux-ui{
+	background-color: #B3B58E;
+	margin: 5px;
+	height: 10px;
+	width: 100px;
+}
+
+#grafico-marketing-digital{
+	background-color: #B3B58E;
+	margin: 5px;
+	height: 10px;
+	width: 100px;
+}
+
+#grafico-inbound-marketing{
+	background-color: #B3B58E;
+	margin: 5px;
+	height: 10px;
+	width: 100px;
+}
+
+.blocos-servico{
+	background-color: #fff;
+	width: 300px;
+	height: 150px;
+	box-shadow: 2px 2px 7px grey;
+}
+
+.blocos-servico h2{
+	text-align: center;
+    padding: 18px 0 0 0;
+}
+
+.blocos-servico p{
+	font-size: 11px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.blocos-servico .bloco-superior{
+	margin:0 auto;
+}
+
+.bloco-left {
+	position: absolute;
+	left: 51%;
+	float: left;
+	}
+
+.bloco-right {
+	position: absolute;
+	right: 51%;
+	float: right;
+}
