@@ -244,3 +244,7 @@ nav ul li a h2{
     border-left: 1px solid gray;
     width: 70%;
 }
+
+.logo-cliente figure img{
+	width: 100px;
+}
