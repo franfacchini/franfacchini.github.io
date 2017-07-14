@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<title>Clientes - Estratégia e Desenvolvimento Digital | Francine Facchini</title>
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:300|Roboto:300|Source+Sans+Pro">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Fredericka+the+Great|Julius+Sans+One|Lobster|Love+Ya+Like+A+Sister|Poiret+One|Sacramento" rel="stylesheet">
 	<link href="css/estilo.css" rel="stylesheet" type="text/css" media="screen" />
-	
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
 </head>
 <body>
 	<header>
-		<section id="name">
+		<section class="topo">
+
 			<h1>Francine Facchini</h1>
+
+
+			<section id="social">
+				<a href="https://www.behance.net/franfacchini"><i class="fa fa-behance" aria-hidden="true"></i></a>
+				<a href="https://www.linkedin.com/in/franfacchini/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				<a href="https://github.com/franfacchini"><i class="fa fa-github" aria-hidden="true"></i></a>
+			</section>
 		</section>
-		<section id="social">
-			<a href="https://www.behance.net/franfacchini"><i class="fa fa-behance" aria-hidden="true"></i></a>
-			<a href="https://www.linkedin.com/in/franfacchini/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-			<a href="https://github.com/franfacchini"><i class="fa fa-github" aria-hidden="true"></i></a>
-		</section>
+
 	</header>
 	<main>
 		<section class="blocos-cliente">
 
-			<section class="cliente1">
-				<figure class="logo-cliente"><img src="https://seeklogo.com/images/I/Itau-logo-082730CE51-seeklogo.com.png"></figure>
-				<p class="review">"Bacon ipsum dolor amet pancetta chicken fatback, ham kevin porchetta pastrami picanha biltong prosciutto leberkas kielbasa sirloin beef. Beef hamburger ground round leberkas shankle doner pastrami bresaola shank meatloaf."</p>
-				<p class="cliente-review">Fulana da Silva Sauro, Gerente de Marketing - Banco Itaú</p>
-			</section>
-
-			<section class="cliente2">
-				<figure class="logo-cliente"><img src="https://seeklogo.com/images/I/Itau-logo-082730CE51-seeklogo.com.png"></figure>
-				<p class="review">"Bacon ipsum dolor amet pancetta chicken fatback, ham kevin porchetta pastrami picanha biltong prosciutto leberkas kielbasa sirloin beef. Beef hamburger ground round leberkas shankle doner pastrami bresaola shank meatloaf."</p>
-				<p class="cliente-review">Fulana da Silva Sauro, Gerente de Marketing - Banco Itaú</p>
-			</section>
+			<div class="slider">
+				<div><img src="http://4.bp.blogspot.com/-wpPPWXaLN-U/VAIYrQ4BWxI/AAAAAAAABQE/O0umjUVXIhs/s1600/Lycoris%2BResponsive%2BBlogger%2BTemplate.png" alt="img01"/></div>
+				<div><img src="http://4.bp.blogspot.com/-wpPPWXaLN-U/VAIYrQ4BWxI/AAAAAAAABQE/O0umjUVXIhs/s1600/Lycoris%2BResponsive%2BBlogger%2BTemplate.png" alt="img01"/></div>
+				<div><img src="http://4.bp.blogspot.com/-wpPPWXaLN-U/VAIYrQ4BWxI/AAAAAAAABQE/O0umjUVXIhs/s1600/Lycoris%2BResponsive%2BBlogger%2BTemplate.png" alt="img01"/></div>
+			</div>
 
 		</section>
-
 	</main>
 
 	<footer>
@@ -69,5 +69,22 @@
 			</ul>
 		</nav>
 	</footer>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.slider').slick({
+				dots: true,
+				infinite: true,
+				speed: 300,
+				slidesToShow: 1,
+				centerMode: true,
+				variableWidth: true
+			});
+		});
+
+	</script>
 </body>
 </html>

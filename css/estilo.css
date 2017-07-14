@@ -3,6 +3,7 @@ body {
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
 	background-color: #F6F6F6;
+	overflow-x: hidden;
 }
 
 header {
@@ -13,17 +14,9 @@ header {
     margin: 37px 0 0 84px;
 }
 
-header img {
-	border-radius: 10px;
-	filter: grayscale(70%);
-	float: left;
-	width: 95px;
-	height: auto;
-	margin: 0 20px 0 0;	
-}
-
-.name{
-	width: 75%;
+.topo{
+	width: 81%;
+    margin: 0 auto;
 }
 
 header h1 {
@@ -31,7 +24,7 @@ header h1 {
 	font-family: 'Sacramento', cursive;
 	font-size: 80px;
 	color: #41B4A3;
-	margin: 0;	
+	margin: 0;
 }
 
 #social{
@@ -54,7 +47,8 @@ main {
 }
 
 .blocos{
-    margin: 0 83px;
+    margin: 0 auto;
+    width: 88%;
 }
 
 .bloco-quemsou{
@@ -65,15 +59,25 @@ main {
     width: 250px;
     height: 270px;
     box-shadow: 2px 2px 7px #696969;
+    animation: up 20s infinite;
 
 }
+
+@keyframes up {
+	0%   {background:#DCDCDC;}
+	25%  {background:#FFC0CB;}
+	50%  {background:#ADD8E6;}
+	75%  {background:#FFFACD;}
+	100% {background:#EEE8AA;}
+}
+
 
 .bloco-quemsou h2{
 	text-align: center;
 	color: #696969;
 }
 
-.bloco-quemsou p, 
+.bloco-quemsou p,
 .bloco-quemsou span{
 	font-size: 14px;
 	color: grey;
@@ -86,6 +90,11 @@ footer{
   	background: #41B4A3;
 }
 
+nav{
+    margin: 0 auto;
+    width: 90%;
+}
+
 nav ul{
 	display: inline-flex;
 	list-style-type:none;
@@ -96,13 +105,13 @@ nav ul li{
     text-align: center;
 }
 
-nav ul li a{ 
+nav ul li a{
  	text-decoration:none;
 	color: #fff;
  	font-weight: bold;
 }
 
-nav ul li a h2{ 
+nav ul li a h2{
  	font-size: 20px;
 }
 
@@ -184,7 +193,7 @@ nav ul li a h2{
 
 }
 
- .form input, 
+ .form input,
  .form textarea {
 	 font-size:16px;
 	 display:block;
@@ -245,6 +254,6 @@ nav ul li a h2{
     width: 70%;
 }
 
-.logo-cliente figure img{
-	width: 100px;
+.slider img{
+	width: 600px;
 }
