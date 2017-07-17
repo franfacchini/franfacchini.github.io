@@ -25,18 +25,27 @@ header h1 {
 	font-size: 80px;
 	color: #41B4A3;
 	margin: 0;
+	animation: corFont 20s infinite;
 }
 
 #social{
 	float: right;
 	width: 25%;
-	color: #41B4A3;
+}
+
+@keyframes corFont {
+	0%   {color:#41B4A3;}
+	25%  {color:#41B443;}
+	50%  {color:#4B0082;}
+	75%  {color:#DC143C;}
+	100% {color:#B22222;}
 }
 
 #social a{
 	color: #41B4A3;
 	font-size: 30px;
 	margin: 15px;
+	animation: corFont 20s infinite;
 }
 
 main {
@@ -59,16 +68,15 @@ main {
     width: 250px;
     height: 270px;
     box-shadow: 2px 2px 7px #696969;
-    animation: up 20s infinite;
-
 }
 
-@keyframes up {
-	0%   {background:#DCDCDC;}
-	25%  {background:#FFC0CB;}
-	50%  {background:#ADD8E6;}
-	75%  {background:#FFFACD;}
-	100% {background:#EEE8AA;}
+@keyframes cor {
+	0%   {background:#41B4A3;}
+	25%  {background:#41B443;}
+	50%  {background:#4B0082;}
+	75%  {background:#DC143C;}
+	99% {background:#B22222;}
+	100%   {background:#41B4A3;}
 }
 
 
@@ -88,6 +96,8 @@ footer{
   	position: absolute;
   	bottom: 0;
   	background: #41B4A3;
+  	animation: cor 20s infinite;
+
 }
 
 nav{
